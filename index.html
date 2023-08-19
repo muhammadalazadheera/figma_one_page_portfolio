@@ -28,11 +28,12 @@
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right oswald">
+                <ul class="nav navbar-nav navbar-right oswald position-relative">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Projects</a></li>
                     <li><a href="#">Contact</a></li>
+                    <span id="indicator"></span>
                 </ul>
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
@@ -40,7 +41,7 @@
 
     <main>
         <section id="hero">
-            \<div class="hero-box">
+            <div class="hero-box">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-5">
@@ -58,7 +59,419 @@
                         </div>
                         <div class="col-md-7">
                             <div class="hero-img">
-                                <img src="assets/images/hero.png" alt="hero-img">
+                                <img src="assets/images/hero.gif" alt="hero-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="services">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="service-box bg-yellow">
+                            <div class="service-img">
+                                <img src="assets/images/services/monitor.png" alt="">
+                            </div>
+                            <div class="service-text text-center oswald">
+                                <h5>Web Design</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="service-box bg-red">
+                            <div class="service-img">
+                                <img src="assets/images/services/code.png" alt="">
+                            </div>
+                            <div class="service-text text-center oswald">
+                                <h5>Web Development</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="service-box bg-green">
+                            <div class="service-img">
+                                <img src="assets/images/services/pencil.png" alt="">
+                            </div>
+                            <div class="service-text text-center oswald">
+                                <h5>Graphics Design</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="bio">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="bio-img">
+                            <img src="assets/images/bio.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="bio-text">
+                            <h2 class="oswald">Al Azad Heera</h2>
+                            <h3 class="oswald">Professional Full Stack Developer</h3>
+                            <p class="poppins">I'm a passionate full-stack developer dedicated to crafting innovative
+                                and user-centric
+                                experiences. With expertise in both frontend and backend technologies, I thrive on
+                                building seamless, scalable solutions. Collaboration, continuous learning, and a focus
+                                on meaningful impact drive my journey in the dynamic world of software development.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="title" class="oswald">
+            <h1>Technologies</h1>
+        </section>
+        <section id="technologies">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="tech-box">
+                            <div class="tech-img">
+                                <img src="assets/images/tech/html.png" alt="">
+                            </div>
+                            <div class="tech-title oswald text-center">
+                                <h2>HTML</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="tech-box">
+                            <div class="tech-img">
+                                <img src="assets/images/tech/css.png" alt="">
+                            </div>
+                            <div class="tech-title oswald text-center">
+                                <h2>CSS</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="tech-box">
+                            <div class="tech-img">
+                                <img src="assets/images/tech/js.png" alt="">
+                            </div>
+                            <div class="tech-title oswald text-center">
+                                <h2>Javascript</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="tech-box">
+                            <div class="tech-img">
+                                <img src="assets/images/tech/php.png" alt="">
+                            </div>
+                            <div class="tech-title oswald text-center">
+                                <h2>PHP</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="tech-box">
+                            <div class="tech-img">
+                                <img src="assets/images/tech/node.png" alt="">
+                            </div>
+                            <div class="tech-title oswald text-center">
+                                <h2>Node JS</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="tech-box">
+                            <div class="tech-img">
+                                <img src="assets/images/tech/laravel.png" alt="">
+                            </div>
+                            <div class="tech-title oswald text-center">
+                                <h2>Laravel</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="tech-box">
+                            <div class="tech-img">
+                                <img src="assets/images/tech/mongo.png" alt="">
+                            </div>
+                            <div class="tech-title oswald text-center">
+                                <h2>Mongo DB</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="tech-box">
+                            <div class="tech-img">
+                                <img src="assets/images/tech/sql.png" alt="">
+                            </div>
+                            <div class="tech-title oswald text-center">
+                                <h2>SQL</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="title" class="oswald">
+            <h1>Projects</h1>
+        </section>
+        <section id="projects">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="project-buttons">
+                            <button class="project-button oswald button-active">Web design</button>
+                            <button class="project-button oswald">Web development</button>
+                            <button class="project-button oswald">graphics design</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="project-box">
+                            <div class="project-img">
+                                <img src="https://avatars.mds.yandex.net/i?id=62cb4f7a09c2589fd710c92f60acadeeb100c667-9382563-images-thumbs&n=13"
+                                    alt="default.png">
+                            </div>
+                            <div class="project-title">
+                                <h2 class="oswald">Project 1</h2>
+                            </div>
+                            <div class="project-desc">
+                                <p class="poppins">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim nam
+                                    inventore quaerat facere</p>
+                            </div>
+                            <div class="project-link">
+                                <button class="project-link-button oswald">Visit</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="project-box">
+                            <div class="project-img">
+                                <img src="https://avatars.mds.yandex.net/i?id=b8e047c50e3d6a2e12a88b6af7e5ae2abb1a3bc2-9068811-images-thumbs&n=13"
+                                    alt="default.png">
+                            </div>
+                            <div class="project-title">
+                                <h2 class="oswald">Project 2</h2>
+                            </div>
+                            <div class="project-desc">
+                                <p class="poppins">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim nam
+                                    inventore quaerat facere</p>
+                            </div>
+                            <div class="project-link">
+                                <button class="project-link-button oswald">Visit</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="project-box">
+                            <div class="project-img">
+                                <img src="https://yandex-images.clstorage.net/5A5q1Qt50/80ffafbuwuY/VMWSKmGk-KFw8I5rSiM_uRopLTzQIHyGxTNZB5wkpH43uXaBL_cyXClMUhzT6YqIa6Kzwso1KdL-aJgjySnKi8CAATjwIi71IndbaUrifz5Neel7xqFrwFWkW9Xfcyb-4uOtCCY_aUOk01pCTe-Knv934Ecfoj9csW6cbgAshV9agVjkJfx243qqzCrLanV7AeEmc05mqUUNJRRdgXFw7vshqUloNeMI6RDeDMMnyBCyMCVeVG0x0nq7EikKLIhQ30ScZiW9sS796svgBCK3OsrhZvtJqyaPSqmaWgT5Mii_6GdLrbsiyOUfVcsHZ0aYNTxiGtJr8pGzMNBnhWOCnRCNXGIv_HMm_eaOK8BrdfyHq66yhyGgDUouE9EA8zFstmCgS6Q2asAjWBdCRivEXbc3b5FZ5_WV-7La6cnsydOXStci6TYzKzTvRiiFrDz0R6FgPUMnqwFH7FYUAPP06Xgp58jmtWPJYhdZg0PpQ9vw8uTQ0umyGvDw0GlI5E8Y2ANeI2c99uJ4J8Mqy-Y2uoPmqTFIISvAAGbT20J0eyMyYS7BbTskQunU0wrP54-fez5vXh1o_pf6thhoiSPOkV2C3O4kuX1m_qkEL8WssLYKY2r0SmnmCQxhWBVIeXwqemjkyWx75cklVdHFhSNHF7L_LZFRK3eTOrPc6YOuQRReydLnqzr247djxGJErD69yOFud0or7U5HoVbUAL00qn6k6EFiPyCE4pgexAcjCNk__2RfWiX-kHJ0myOCosJZ14OZpyy6uKw4o4kvReE2dIok6HDBZqjAz-ISm8zysG90bKnGKrpkzOnQlgmE6ATXPTdrGZ0qd5L3NJfvjuBAGZjBG-dpNnXhdSZMLY3psn1Kb-_6iqCqgsmiXZxCPbwr9mSnw-P1JQQlktdNAqwB3bT34xiT4DUW-r8aowFliBEWxFNo6HlwKnouRCqFYLr6RC_ucUZuJoXCZtWdy8"
+                                    alt="default.png">
+                            </div>
+                            <div class="project-title">
+                                <h2 class="oswald">Project 3</h2>
+                            </div>
+                            <div class="project-desc">
+                                <p class="poppins">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim nam
+                                    inventore quaerat facere</p>
+                            </div>
+                            <div class="project-link">
+                                <button class="project-link-button oswald">Visit</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="project-box">
+                            <div class="project-img">
+                                <img src="https://avatars.mds.yandex.net/i?id=2b314f385f4929e47da83e472cbc5039959967e6-8497209-images-thumbs&n=13"
+                                    alt="default.png">
+                            </div>
+                            <div class="project-title">
+                                <h2 class="oswald">Project 4</h2>
+                            </div>
+                            <div class="project-desc">
+                                <p class="poppins">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim nam
+                                    inventore quaerat facere</p>
+                            </div>
+                            <div class="project-link">
+                                <button class="project-link-button oswald">Visit</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="project-box">
+                            <div class="project-img">
+                                <img src="https://findus.gr/images/bg-image-08.jpg" alt="default.png">
+                            </div>
+                            <div class="project-title">
+                                <h2 class="oswald">Project 5</h2>
+                            </div>
+                            <div class="project-desc">
+                                <p class="poppins">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim nam
+                                    inventore quaerat facere</p>
+                            </div>
+                            <div class="project-link">
+                                <button class="project-link-button oswald">Visit</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="project-box">
+                            <div class="project-img">
+                                <img src="https://avatars.mds.yandex.net/i?id=0c2066a2a89dfcf2db2d38d26c68b63b5eff5be9-8918938-images-thumbs&n=13"
+                                    alt="default.png">
+                            </div>
+                            <div class="project-title">
+                                <h2 class="oswald">Project 6</h2>
+                            </div>
+                            <div class="project-desc">
+                                <p class="poppins">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim nam
+                                    inventore quaerat facere</p>
+                            </div>
+                            <div class="project-link">
+                                <button class="project-link-button oswald">Visit</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="numbers">
+            <div class="container">
+                <div class="number-boxes">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="number-box bg-yellow">
+                                <div class="number-img">
+                                    <img src="assets/images/services/monitor.png" alt="">
+                                </div>
+                                <h2 class="oswald">22</h2>
+                                <h3 class="oswald">Website Design</h3>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="number-box bg-red">
+                                <div class="number-img">
+                                    <img src="assets/images/services/code.png" alt="">
+                                </div>
+                                <h2 class="oswald">22</h2>
+                                <h3 class="oswald">Website Development</h3>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="number-box bg-green">
+                                <div class="number-img">
+                                    <img src="assets/images/services/pencil.png" alt="">
+                                </div>
+                                <h2 class="oswald">22</h2>
+                                <h3 class="oswald">Fullstack Project</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="title" class="oswald">
+            <h1>Testimonials</h1>
+        </section>
+        <section id="testimonial">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="testimonial-box">
+                            <div class="single-testimonial">
+                                <div class="testimonial-img">
+                                    <img src="assets/images/testimonial.jpg" alt="">
+                                </div>
+                                <div class="testimonial-text">
+                                    <p class="poppins">A full-stack developer is the backbone of our tech projects.
+                                        Their ability to seamlessly handle front-end and back-end tasks ensures
+                                        efficient and cohesive development. We owe our success to their versatile skills
+                                        and dedication</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="partners">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2">
+                        <div class="partner">
+                            <h2 class="oswald">Samsung</h2>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="partner">
+                            <h2 class="oswald">Microsoft</h2>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="partner">
+                            <h2 class="oswald">Google</h2>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="partner">
+                            <h2 class="oswald">IBM</h2>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="partner">
+                            <h2 class="oswald">Intel</h2>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="partner">
+                            <h2 class="oswald">Air BNB</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="title" class="oswald">
+            <h1>Get in touch</h1>
+        </section>
+        <section id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="address-box oswald bg-gray">
+                            <h4>Al Azad Heera</h4>
+                            <h4>Email: alazadheera@gmail.com</h4>
+                            <h4>What's App: +88017111111</h4>
+                            <h4>Dhaka, Bangladesh</h4>
+                            <ul>
+                                <li><a href="#"><img src="assets/images/socials/git.png" alt="default.png"></a></li>
+                                <li><a href="#"><img src="assets/images/socials/ln.png" alt="default.png"></a></li>
+                                <li><a href="#"><img src="assets/images/socials/fb.png" alt="default.png"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="contact-form-box oswald bg-gray">
+                            <div class="input-box">
+                                <label for="name">Name</label>
+                                <input id="name" class="input" type="text">
+                            </div>
+                            <div class="input-box">
+                                <label for="email">Email</label>
+                                <input id="email" class="input" type="email">
+                            </div>
+                            <div class="input-box">
+                                <label for="message">message</label>
+                                <textarea id="message" class="input" rows="5"></textarea>
+                            </div>
+                            <div class="input-box">
+                                <button>SEND</button>
                             </div>
                         </div>
                     </div>
@@ -66,6 +479,9 @@
             </div>
         </section>
     </main>
+    <footer class="poppins">
+        <p>All Rights Reserved &copy <span id="year"></span></p>
+    </footer>
 
     <!-- Latest compiled and minified Jquery -->
     <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
