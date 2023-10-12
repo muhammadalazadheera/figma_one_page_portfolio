@@ -416,13 +416,19 @@
       <section id="numbers">
         <div class="container">
           <div class="number-boxes">
-            <div class="row">
+            <div class="row" id="counters_1">
               <div class="col-md-4">
                 <div class="number-box bg-yellow">
                   <div class="number-img">
                     <img src="assets/images/services/monitor.png" alt="" />
                   </div>
-                  <h2 class="oswald">22</h2>
+                  <h2
+                    class="oswald counter"
+                    data-TargetNum="180"
+                    data-Speed="2000"
+                  >
+                    180
+                  </h2>
                   <h3 class="oswald">Website Design</h3>
                 </div>
               </div>
@@ -431,7 +437,13 @@
                   <div class="number-img">
                     <img src="assets/images/services/code.png" alt="" />
                   </div>
-                  <h2 class="oswald">22</h2>
+                  <h2
+                    class="oswald counter"
+                    data-TargetNum="220"
+                    data-Speed="2000"
+                  >
+                    220
+                  </h2>
                   <h3 class="oswald">Website Development</h3>
                 </div>
               </div>
@@ -440,7 +452,13 @@
                   <div class="number-img">
                     <img src="assets/images/services/pencil.png" alt="" />
                   </div>
-                  <h2 class="oswald">22</h2>
+                  <h2
+                    class="oswald counter"
+                    data-TargetNum="180"
+                    data-Speed="2000"
+                  >
+                    <span class="counter">150</span>
+                  </h2>
                   <h3 class="oswald">Fullstack Project</h3>
                 </div>
               </div>
@@ -581,6 +599,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js"></script>
     <!-- Mixitup js -->
     <script src="assets/js/mixitup.min.js"></script>
+    <!-- Counter up js -->
+    <script src="assets/js/multi-animated-counter.js"></script>
     <!-- Custom javascript -->
     <script src="assets/js/main.js"></script>
     <script>
