@@ -165,7 +165,6 @@ nav {
 }
 
 .hero-text {
-  width: 100%;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -198,7 +197,7 @@ nav {
   background: #6c63ff;
   color: #ffffff;
   border: none;
-  font-size: 20px;
+  font-size: 19px;
   border-radius: 2px;
 }
 
@@ -208,7 +207,6 @@ nav {
 }
 
 .service-box {
-  width: 100%;
   padding: 50px 0px;
   border: 1px solid rgba(0, 0, 0, 0.568);
   border-radius: 3px;
@@ -238,12 +236,11 @@ nav {
 }
 
 #bio {
-  padding: 90px 0;
+  padding: 90px 0 0 45px;
 }
 
 .bio-img {
   width: 75%;
-  height: 512px;
   margin: 0 auto;
 }
 
@@ -255,15 +252,15 @@ nav {
 }
 
 .bio-text {
-  padding-top: 70px;
+  padding-top: 15px;
 }
 
-.bio-text h2 {
+.bio-text h1 {
   font-size: 45px;
   font-weight: bold;
 }
 
-.bio-text h3 {
+.bio-text h2 {
   font-size: 35px;
   font-weight: bold;
   margin-bottom: 20px;
@@ -445,6 +442,10 @@ nav {
 .contact-form-box {
   min-height: 380px;
   padding: 50px 50px 20px 50px;
+}
+
+.contact-form-box {
+  border: 1px solid rgba(0, 0, 0, 0.5);
 }
 
 .input-box {

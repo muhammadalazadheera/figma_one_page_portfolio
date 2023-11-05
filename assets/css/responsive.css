@@ -1,0 +1,164 @@
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  #services {
+    padding: 60px 0px 30px 0px;
+  }
+
+  .service-box {
+    margin-bottom: 30px;
+  }
+
+  #bio {
+    padding: 90px 0 45px 0;
+  }
+
+  .bio-text h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .bio-text h2 {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .bio-text p {
+    text-align: center;
+  }
+
+  #technologies {
+    padding: 0;
+  }
+
+  .tech-box {
+    min-height: auto;
+  }
+
+  .tech-img {
+    width: 20%;
+  }
+
+  .tech-title h2 {
+    margin-top: 50px;
+    font-size: 40px;
+  }
+
+  .number-box {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .number-img {
+    width: 23%;
+    bottom: 25px;
+  }
+
+  .number-img img {
+    width: 60%;
+  }
+
+  .address-box {
+    padding-left: 25px;
+    margin-bottom: 20px;
+  }
+
+  .contact-form-box {
+    padding: 50px 25px 20px 25px;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  #title {
+    text-align: center;
+    margin: 60px 0;
+    color: #2c786c;
+    text-transform: uppercase;
+  }
+
+  #title h1 {
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  .hero-text h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .hero-text h2 {
+    font-size: 25px;
+    text-align: center;
+  }
+  .hero-text h6 {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .hero-button-box {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-button-box button {
+    width: 80%;
+    padding: 5px 0px;
+    margin-bottom: 10px;
+    font-size: 17px;
+  }
+
+  #bio {
+    padding: 35px 20px;
+  }
+
+  .bio-text {
+    padding-top: 35px;
+  }
+
+  .tech-title h2 {
+    margin-top: 10px;
+    font-size: 22px;
+  }
+
+  #projects {
+    padding: 0 20px;
+  }
+
+  .project-buttons {
+    flex-direction: column;
+  }
+
+  .project-button {
+    margin-bottom: 10px;
+  }
+
+  #numbers {
+    padding: 0 20px;
+  }
+
+  .number-boxes {
+    padding: 45px 35px 25px 35px;
+  }
+
+  .testimonial-box {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  #contact {
+    padding: 0 20px;
+  }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+}
